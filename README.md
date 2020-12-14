@@ -9,7 +9,6 @@ Clone or download the repository and install the dependencies.
 Move to the root directory where the package.json exists and type:
 
 <pre> 
-
 ### Install dependecies
 npm install
 
