@@ -14,7 +14,6 @@ const CardList = (props) => {
         setHeight(json.height);
         setWeight(json.weight);
         setPhoto(json.sprites.front_default);
-        console.log("url " + typeof props.url);
       })
       .catch((error) => console.error(error));
   }, [props.url]);
